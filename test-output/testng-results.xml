@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="83620" started-at="2022-08-06T12:58:34 EDT" finished-at="2022-08-06T12:59:58 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="83620" started-at="2022-08-06T12:58:34 EDT" finished-at="2022-08-06T12:59:58 EDT">
+      <class name="tests.NewContactPageTest">
+        <test-method status="PASS" signature="initialization()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="initialization" is-config="true" duration-ms="25594" started-at="2022-08-06T12:58:37 EDT" finished-at="2022-08-06T12:59:03 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="validateNewCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="validateNewCreateContactTest" duration-ms="4884" started-at="2022-08-06T12:59:03 EDT" data-provider="empData" finished-at="2022-08-06T12:59:07 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Abhijeet]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yadav]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Infosys]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1.23456789E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Pune]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewCreateContactTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="closeResources" is-config="true" duration-ms="649" started-at="2022-08-06T12:59:08 EDT" finished-at="2022-08-06T12:59:08 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="initialization" is-config="true" duration-ms="18814" started-at="2022-08-06T12:59:08 EDT" finished-at="2022-08-06T12:59:27 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="validateNewCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="validateNewCreateContactTest" duration-ms="7550" started-at="2022-08-06T12:59:27 EDT" data-provider="empData" finished-at="2022-08-06T12:59:35 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Akash]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Maske]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Cognizant]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[2.345678901E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Mumbai]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewCreateContactTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="closeResources" is-config="true" duration-ms="415" started-at="2022-08-06T12:59:35 EDT" finished-at="2022-08-06T12:59:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+        <test-method status="PASS" signature="initialization()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="initialization" is-config="true" duration-ms="17232" started-at="2022-08-06T12:59:35 EDT" finished-at="2022-08-06T12:59:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialization -->
+        <test-method status="PASS" signature="validateNewCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="validateNewCreateContactTest" duration-ms="5340" started-at="2022-08-06T12:59:52 EDT" data-provider="empData" finished-at="2022-08-06T12:59:58 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Balaji]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Rawangave]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Wipro]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[3.456789021E9]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Hydrabad]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateNewCreateContactTest -->
+        <test-method status="PASS" signature="closeResources()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="closeResources" is-config="true" duration-ms="533" started-at="2022-08-06T12:59:58 EDT" finished-at="2022-08-06T12:59:58 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeResources -->
+      </class> <!-- tests.NewContactPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
