@@ -48,12 +48,6 @@ public class NewContactPage extends TestBase{
 	
 	
 	
-	
-	
-	
-	
-	
-	
 	public NewContactPage() {
 		PageFactory.initElements(driver, this);
 	}

@@ -27,6 +27,12 @@ public class HomePage extends TestBase{
 	
 	@FindBy (xpath = "//a[text()='New Company']")
 	WebElement creatCompanyLink;
+	
+	@FindBy(xpath="//*[text()='Tasks']")
+	WebElement task;
+	
+	@FindBy(xpath="//*[text()='New Task']")
+	WebElement NewTaskPageLink;
 		
 	//2. actions
 	public void logout() {
@@ -45,6 +51,11 @@ public class HomePage extends TestBase{
 	}
 	
 	// deal
+	public NewTaskPage newTaskPage () {
+		Utility.mouseOver(task);
+		NewTaskPageLink.click();
+		return new NewTaskPage();
+	}
 	
 	// task
 	

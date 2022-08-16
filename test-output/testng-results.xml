@@ -1,130 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results ignored="0" total="1" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="83620" started-at="2022-08-06T12:58:34 EDT" finished-at="2022-08-06T12:59:58 EDT">
+  <suite started-at="2022-08-16T17:54:40 IST" name="Default suite" finished-at="2022-08-16T17:54:41 IST" duration-ms="529">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="83620" started-at="2022-08-06T12:58:34 EDT" finished-at="2022-08-06T12:59:58 EDT">
-      <class name="tests.NewContactPageTest">
-        <test-method status="PASS" signature="initialization()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="initialization" is-config="true" duration-ms="25594" started-at="2022-08-06T12:58:37 EDT" finished-at="2022-08-06T12:59:03 EDT">
+    <test started-at="2022-08-16T17:54:40 IST" name="Default test" finished-at="2022-08-16T17:54:41 IST" duration-ms="529">
+      <class name="tests.NewTaskPageTest">
+        <test-method signature="validateNewDealPageTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NewTaskPageTest@306e95ec]" started-at="2022-08-16T17:54:41 IST" name="validateNewDealPageTest" data-provider="taskData" finished-at="2022-08-16T17:54:41 IST" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:50)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:146)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:798)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:740)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:791)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.ArrayIndexOutOfBoundsException: Index 4 out of bounds for length 4
+at util.Utility.getDataaa(Utility.java:64)
+at tests.NewTaskPageTest.passTaskData(NewTaskPageTest.java:31)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:77)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:46)
+... 25 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="validateNewCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="validateNewCreateContactTest" duration-ms="4884" started-at="2022-08-06T12:59:03 EDT" data-provider="empData" finished-at="2022-08-06T12:59:07 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Abhijeet]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Yadav]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Infosys]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[1.23456789E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Pune]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateNewCreateContactTest -->
-        <test-method status="PASS" signature="closeResources()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="closeResources" is-config="true" duration-ms="649" started-at="2022-08-06T12:59:08 EDT" finished-at="2022-08-06T12:59:08 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeResources -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="initialization" is-config="true" duration-ms="18814" started-at="2022-08-06T12:59:08 EDT" finished-at="2022-08-06T12:59:27 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="validateNewCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="validateNewCreateContactTest" duration-ms="7550" started-at="2022-08-06T12:59:27 EDT" data-provider="empData" finished-at="2022-08-06T12:59:35 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Akash]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Maske]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Cognizant]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[2.345678901E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Mumbai]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateNewCreateContactTest -->
-        <test-method status="PASS" signature="closeResources()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="closeResources" is-config="true" duration-ms="415" started-at="2022-08-06T12:59:35 EDT" finished-at="2022-08-06T12:59:35 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeResources -->
-        <test-method status="PASS" signature="initialization()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="initialization" is-config="true" duration-ms="17232" started-at="2022-08-06T12:59:35 EDT" finished-at="2022-08-06T12:59:52 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initialization -->
-        <test-method status="PASS" signature="validateNewCreateContactTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="validateNewCreateContactTest" duration-ms="5340" started-at="2022-08-06T12:59:52 EDT" data-provider="empData" finished-at="2022-08-06T12:59:58 EDT">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Balaji]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[Rawangave]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[Wipro]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[3.456789021E9]]>
-              </value>
-            </param>
-            <param index="4">
-              <value>
-                <![CDATA[Hydrabad]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateNewCreateContactTest -->
-        <test-method status="PASS" signature="closeResources()[pri:0, instance:tests.NewContactPageTest@1d371b2d]" name="closeResources" is-config="true" duration-ms="533" started-at="2022-08-06T12:59:58 EDT" finished-at="2022-08-06T12:59:58 EDT">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeResources -->
-      </class> <!-- tests.NewContactPageTest -->
+        </test-method> <!-- validateNewDealPageTest -->
+      </class> <!-- tests.NewTaskPageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

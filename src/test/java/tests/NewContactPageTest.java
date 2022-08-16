@@ -16,9 +16,7 @@ import pages.LoginPage;
 import pages.NewContactPage;
 import util.Utility;
 
-public class NewContactPageTest extends TestBase
-
-{
+public class NewContactPageTest extends TestBase{
 	
 	LoginPage loginPage;
 	HomePage homePage;
@@ -47,9 +45,6 @@ public class NewContactPageTest extends TestBase
 		contactPage.createContact(FN, LN, compName, MobNumber, add);
 		
 	}
-	
-	
-	
 	
 	
 	@AfterMethod

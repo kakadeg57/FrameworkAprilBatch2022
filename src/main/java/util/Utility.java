@@ -33,7 +33,6 @@ public class Utility extends TestBase{
 	
 	public static String[][] getData() throws IOException {
 		
-		
 		FileInputStream file =  new FileInputStream("D:\\SoftWare Testing\\AutoMation Testing\\TestData\\EmpData.xlsx");
 		XSSFWorkbook workbook = new XSSFWorkbook(file);
 		 XSSFSheet sheet = workbook.getSheet("data");
@@ -49,5 +48,23 @@ public class Utility extends TestBase{
 			}
 		}	
 		return  empData ;
+	}
+	public static String[][] getDataaa() throws IOException {
+		FileInputStream file1= new FileInputStream("D:\\Soft_Test\\Book1.xlsx");
+		XSSFWorkbook workbook=new XSSFWorkbook(file1);
+		XSSFSheet sheet= workbook.getSheet("fg");
+		
+		int rows=sheet.getLastRowNum();
+		int columns=sheet.getRow(0).getLastCellNum();
+		
+		String taskData[][]= new String [rows][columns];
+		for(int r=0;r<=rows;r++) //rows
+			{for(int c=0; c<columns; c++)//columns
+			{
+				taskData [r][c]=sheet.getRow(r+1).getCell(c).toString();
+			}
+		}
+		return taskData;
+		
 	}
 }
