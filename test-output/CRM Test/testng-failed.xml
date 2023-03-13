@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [CRM Test]">
+<suite name="Failed suite [CRM Test]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="regression (failed)">
     <parameter name="password" value="Speedway@2016"/>
     <parameter name="username" value="Speedway2016"/>
@@ -8,7 +8,9 @@
       <class name="tests.HomePageTest">
         <methods>
           <include name="closeResources"/>
+          <include name="validateRedirectionOfNewContactLink"/>
           <include name="validateRedirectionOfNewCompanyLink"/>
+          <include name="validateLogoutTest"/>
           <include name="initialize"/>
         </methods>
       </class> <!-- tests.HomePageTest -->
